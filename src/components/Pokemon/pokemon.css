@@ -1,0 +1,111 @@
+.card {
+    width: 150px;
+    height: 200px;
+    margin: 2rem 3rem;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    position: relative;
+}
+
+.card-img {
+    width: 170px;
+    height: 220px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.4s;
+}
+
+.pokemon-name {
+    opacity: 0;
+    transition: all 0.4s;
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    text-align: center;
+    color: rgb(104, 102, 102);
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.card:hover .pokemon-name {
+    opacity: 1;
+}
+
+.card:hover .card-img {
+    width: 190px;
+    height: 240px;
+}
+
+/* pokemon types */
+
+.normal {
+    background-color: var(--normal);
+}
+
+.fire {
+    background-color: var(--fire);
+}
+
+.water {
+    background-color: var(--water);
+}
+
+.grass {
+    background-color: var(--grass);
+}
+
+.fighting {
+    background-color: var(--fighting);
+}
+
+.flying {
+    background-color: var(--flying);
+}
+
+.poison {
+    background-color: var(--poison);
+}
+
+.ghost {
+    background-color: var(--ghost);
+}
+
+.steel {
+    background-color: var(--steel);
+}
+
+.electric {
+    background-color: var(--electric);
+}
+
+.psychic {
+    background-color: var(--psychic);
+}
+.ground {
+    background-color: var(--ground);
+}
+.rock {
+    background-color: var(--rock);
+}
+.bug {
+    background-color: var(--bug);
+}
+.ice {
+    background-color: var(--ice);
+}
+.dragon {
+    background-color: var(--dragon);
+}
+.dark {
+    background-color: var(--dark);
+}
+.fairy {
+    background-color: var(--fairy);
+}
