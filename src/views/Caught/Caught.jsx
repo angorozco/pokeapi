@@ -17,7 +17,7 @@ const Caught = () => {
           <Link to='/' className='btn'>GO</Link>
         </div>
       : <div className='pokemon-list'>
-            {caught.map((pokemon) => <CaughtPokemon key={pokemon} pokemon={pokemon}/> )}
+            {caught.map((pokemon) => <CaughtPokemon key={pokemon.id} pokemon={pokemon}/> )}
         </div>
       }
     </div>

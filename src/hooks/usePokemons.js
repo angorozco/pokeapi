@@ -11,7 +11,7 @@ export const usePokemons = (page) => {
             getPokemons(page)
                 .then((res) => setPokemons(res))
                 .finally(() => setIsLoading(false));
-        }, 2000);
+        }, 1000);
     }, [page]);
 
     return { pokemons, isLoading };

@@ -8,8 +8,6 @@ export const useCaughtContext = () => useContext(CaughtContext);
 const CaughtProvider = ({ children }) => {
     const [caught, setCaught] = useState([]);
 
-    const clear = () => setCaught([]);
-
     const isCaught = (id) => {
         return caught.some((pokemon) => pokemon.id === id);
     };
@@ -25,7 +23,7 @@ const CaughtProvider = ({ children }) => {
     };
 
     return (
-        <Provider value={{ clear, isCaught, handleCatch, caught }}>
+        <Provider value={{ isCaught, handleCatch, caught }}>
             {children}
         </Provider>
     );

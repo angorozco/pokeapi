@@ -3,7 +3,7 @@
     left: 50%;
     top: 30%;
     transform: translate(-50%);
-    width: 30%;
+    width: 90%;
     height: 400px;
     background: rgba(255, 255, 255, 0.2);
     border-radius: 16px;
@@ -23,7 +23,7 @@
 }
 
 .detail-info {
-    margin-top: 30%;
+    margin-top: 50%;
     color: grey;
 }
 
@@ -33,7 +33,7 @@
     z-index: 100;
     text-align: center;
     color: transparent;
-    font-size: 4rem;
+    font-size: 2rem;
     text-transform: uppercase;
 }
 
@@ -46,4 +46,24 @@
 
 .detail-btn {
     text-align: center;
+}
+
+@media screen and (min-width: 400px) {
+    .detail-info {
+        margin-top: 40%;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .pokemon-detail {
+        width: 420px;
+    }
+
+    .detail-info {
+        margin-top: 30%;
+    }
+
+    .detail-info h1 {
+        font-size: 3rem;
+    }
 }

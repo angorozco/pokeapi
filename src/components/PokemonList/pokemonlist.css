@@ -2,8 +2,8 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    height: calc(100vh - 120px);
+    justify-content: center;
+    max-height: calc(100vh - 120px);
     overflow-y: auto;
     -ms-overflow-style: none;
     scrollbar-width: none;
@@ -11,4 +11,10 @@
 
 .pokemon-list::-webkit-scrollbar {
     display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .pokemon-list {
+        justify-content: space-evenly;
+    }
 }
