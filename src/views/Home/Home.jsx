@@ -11,7 +11,6 @@ const Home = () => {
   const {pokemons, isLoading} = usePokemons(page);
 
 
-  console.log(pokemons)
 
   const handlePrev = () => {
     if (page > 1) {

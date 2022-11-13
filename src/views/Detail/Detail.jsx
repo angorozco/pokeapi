@@ -6,11 +6,9 @@ import PokemonDetail from '../../components/PokemonDetail/PokemonDetail';
 
 const Detail = () => {
   const {pokemonId} = useParams();
-  console.log(pokemonId)
 
   const {pokemon} = usePokemon(pokemonId);
 
-  console.log(pokemon)
   return (
     <div className={`detail ${pokemon.type}`}>
       <PokemonDetail pokemon={pokemon}/>

@@ -4,7 +4,7 @@
     top: 30%;
     transform: translate(-50%);
     width: 30%;
-    height: 380px;
+    height: 400px;
     background: rgba(255, 255, 255, 0.2);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -42,4 +42,8 @@
     justify-content: space-between;
     margin-bottom: 1rem;
     padding: 0 4rem;
+}
+
+.detail-btn {
+    text-align: center;
 }

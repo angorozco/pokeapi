@@ -1,0 +1,22 @@
+.caught {
+    background-image: url("https://img.freepik.com/free-vector/bright-summer-gradient-background_53876-114812.jpg?w=740&t=st=1668275675~exp=1668276275~hmac=05de4e7cee818d6988315d24723d82e4bf1cf5388331082176d61fef16c7c49b");
+    width: 100%;
+    height: calc(100vh - 80px);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.no-caught {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    color: grey;
+}
+
+.no-caught a {
+    text-decoration: none;
+}
+
+.no-caught-img {
+    width: 250px;
+}

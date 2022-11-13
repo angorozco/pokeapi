@@ -1,0 +1,23 @@
+.caught-card {
+    width: 250px;
+    height: 100px;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    text-align: end;
+    margin: 1rem;
+}
+
+.caught-img {
+    width: 40%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.caught-name {
+    color: white;
+    text-transform: uppercase;
+}
