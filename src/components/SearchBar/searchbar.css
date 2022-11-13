@@ -1,0 +1,15 @@
+.search-bar {
+    color: white;
+    padding: 0 1rem;
+    background-color: transparent;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border: 2px solid white;
+    width: 150px;
+    height: 100%;
+    outline: none;
+}
+
+.btn {
+    height: 100%;
+}

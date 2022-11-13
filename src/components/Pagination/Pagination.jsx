@@ -4,8 +4,8 @@ import './pagination.css';
 const Pagination = ({handlePrev, handleNext}) => {
   return (
     <div className='pagination'>
-      <button className='btn' onClick={handlePrev}>prev</button>
-      <button className='btn' onClick={handleNext}>next</button>
+      <button className='btn' onClick={handlePrev}>PREV</button>
+      <button className='btn' onClick={handleNext}>NEXT</button>
     </div>
   )
 }

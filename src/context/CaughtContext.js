@@ -24,7 +24,6 @@ const CaughtProvider = ({ children }) => {
         }
     };
 
-    console.log(caught);
     return (
         <Provider value={{ clear, isCaught, handleCatch, caught }}>
             {children}
